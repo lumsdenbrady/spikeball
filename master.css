@@ -1,0 +1,155 @@
+body{
+padding: 0;
+margin: 0;
+}
+nav{
+  width: 100%;
+  height: 74px;
+  background: yellow;
+  position: relative;
+
+}
+header{
+
+  height: 841px;
+
+}
+
+ h1{
+
+text-align: center;
+  font-size: 4rem;
+  margin:0;
+  font-family: 'Archivo Narrow', sans-serif;
+
+}
+h2{
+  font-size: 3.2rem;
+  margin:0;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+h3{
+
+  font-size: 2.5rem;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+p{
+
+  font-size: 1.5rem;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+main{
+  padding: 6rem 15%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  font-size: 1.5rem;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+hr{
+  border:none;
+  border-top: 4px solid yellow;
+  width: 10%;
+  size: 2px;
+}
+.hero-text{
+  color: White;
+  position:relative;
+  padding: 6rem 6rem;
+  text-align: center;
+margin: 0;
+}
+.hero-image{
+  position: absolute;
+
+overflow: hidden;
+  width: 100%;
+  height: 841px;
+}
+.spikeball-image{
+  width: 120%;
+  height: 140%;
+  position: absolute;
+    left:-250px;
+    top:-100px;
+}
+
+.logo{
+  height:74px;
+  width:150px;
+  overflow: hidden;
+  position:absolute;
+}
+.nav-list{
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  border: 2px solid yellow;
+  border-radius: .5rem;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1rem;
+
+}
+.nav-list:hover{
+  border: 2px solid;
+  border-radius: .5rem;
+}
+.navbar{
+    list-style-type: lower-greek;
+    position: absolute;
+    right: 0;
+    margin: 0 15% 0 0;
+    padding: 0;
+
+
+}
+.listed-stuff{
+height:150px;
+margin: 5rem 0;
+}
+.list-image-left{
+  float:left;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+}
+.list-image-right{
+  float:right;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+}
+.list-info{
+padding :2rem 6rem;
+}
+.text-list{
+  display: inline-block;
+  position:relative;
+  left: 250px;
+  top:-30px;
+  list-style-type: disc;
+}
+.prize-list{
+  margin: 10rem auto;
+  text-align: center;
+}
+.prize-items{
+  display: inline-block;
+  width: 25%;
+}
+.pricing{
+  margin: 10rem auto;
+  text-align: center;
+
+}
+.price-list{
+  display: inline-block;
+width: 20%;
+margin:auto;
+  padding: 3rem;
+  border: 2px solid yellow;
+  border-radius: 8%;
+}
